@@ -1,2 +1,1 @@
-# BoardFrontP
-front(HTML, CSS) 연습
+# HTML, CSS, JS, Jqery 연습
