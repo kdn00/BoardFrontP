@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자바스크립트 기초 문법</title>
+    <title>2. 자바스크립트 기초 문법</title>
 </head>
 <body>
     <!-- <script src="chapter2_연결파일.html"/> -->
 
     <script>
     // 논리형 변수
+    document.write("<h4>논리형 변수</h4>")
     var a = true;
     var b = false;
     var c = 10>5;
     var d = Boolean(null);
-    document.write(a, "<br>", b, "<br>", c, "<br>", d, "<br> <hr>");
+    document.write(a, "<br>", b, "<br>", c, "<br>", d, "<br> <hr> <h4>null & undefined 데이터</h4>");
 
     // null & undefined 데이터
     var num = 100;
     var str = "자바스크립트";
 
     document.write(typeof num, "<br>");
-    document.write(typeof str);
+    document.write(typeof str, "<hr> <h4>연산자</h4>");
+
+    var num1 = 15;
+    var num2 = 2;
+    var result;
+    result = num1+num2;
+    document.write(result, "<br>");
+    result = num1-num2;
+    document.write(result, "<br>");
+    result = num1*num2;
+    document.write(result, "<br>");
+    result = num1/num2;
+    document.write(result, "<br>");
+    result = num1%num2;
+    document.write(result, "<br>");
+
+    var t1="학교종이";
+    var t2 = " 땡땡땡 ";
+    var t3 = 8282;
+    var t4 = " 어서 모이자";
+    var result = t1 + t2+ t3+ t4;
+    document.write(result);
+
+    
     </script>
 </body>
 </html>
